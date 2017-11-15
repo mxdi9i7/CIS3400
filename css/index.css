@@ -1,0 +1,113 @@
+nav.navbar ul {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+}
+nav.navbar ul li a {
+    color: #fff;
+    font-family: 'Cinzel', serif;    
+}
+nav.navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+section.indexSplashSection  {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/splash.jpg');
+    background-size: cover;
+    padding-top: 20%;
+}
+.splashContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.splashContainer * {
+    color: #fff;
+    text-align: center;
+}
+.splashContainer h1 {
+    font-size: 188px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-family: 'Cinzel Decorative', cursive;
+    
+}
+.splashContainer h2 {
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.parallaxSection {
+    background-image: url('../img/p3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.parallaxSection .textBox {
+    background-color: #fff;
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    padding: 3em;
+    font-family: 'Cinzel', serif;    
+}
+.parallaxSection .textBox p.emphasize {
+    font-weight: 500;
+    font-size: 22px;
+}
+.parallaxSection .textBox h1 {
+    font-weight: 100;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.parallaxSection .textBox p {
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 'Quicksand', serif;
+}
+.parallaxSection .textBox h1.emphasize {
+    font-weight: 500;
+    font-size: 48px;
+}
+.indexImgBoxSquare1 img {
+    max-width: 100%;
+    height: auto;
+}
+.indexImgBoxSquare1 {
+    max-height: 400px;
+    overflow-y: hidden;
+}
+.indexImgBoxSquare2 img {
+    max-width: 100%;
+    height: auto;
+}
+.indexImgBoxSquare2 {
+    max-height: 400px;
+    overflow-y: hidden;
+}
+.indexImgBoxRect1 img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.indexImgBoxRect2 img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.indexImgBoxRect1 h2 {
+    position: absolute;
+    color: #fff;
+    padding: 2em;
+    bottom: 0;
+    font-size: 22px;
+    line-height: 34px;
+    font-family: 'Quicksand', serif;
+}
