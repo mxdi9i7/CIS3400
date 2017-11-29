@@ -77,7 +77,7 @@ section.indexSplashSection  {
     font-size: 48px;
 }
 .indexImgBoxSquare1 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .indexImgBoxSquare1 {
@@ -93,7 +93,7 @@ section.indexSplashSection  {
     overflow-y: hidden;
 }
 .indexImgBoxRect1 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     position: relative;
 }
