@@ -1,113 +1,136 @@
-nav.navbar ul {
-    width: 100%;
-    max-width: 800px;
+.navContainer {
+    width: 80%;
+    padding: 15px 0;
     margin: 0 auto;
-    color: #fff;
 }
-nav.navbar ul li a {
-    color: #fff;
-    font-family: 'Cinzel', serif;    
+* {
+    font-family: "Open Sans", sans-serif;
 }
-nav.navbar {
-    background-color: transparent;
+nav {
+    width: 100%;
     position: absolute;
     top: 0;
-    width: 100%;
+    z-index: 1;
 }
-section.indexSplashSection  {
-    height: 100vh;
-    width: 100%;
-    background-image: url('../img/splash.jpg');
-    background-size: cover;
-    padding-top: 20%;
-}
-.splashContainer {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-.splashContainer * {
-    color: #fff;
-    text-align: center;
-}
-.splashContainer h1 {
-    font-size: 188px;
-    letter-spacing: 5px;
-    text-transform: capitalize;
-    font-family: 'Cinzel Decorative', cursive;
+.navContainer ul li {
+    display: inline;
+    margin: 0 10px;
+    text-transform: uppercase;
     
 }
-.splashContainer h2 {
-    font-weight: 200;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-}
-.parallaxSection {
-    background-image: url('../img/p3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    min-height: 100vh;
-}
-.parallaxSection .textBox {
-    background-color: #fff;
-    height: 100%;
-    max-height: 400px;
-    width: 100%;
-    padding: 3em;
-    font-family: 'Cinzel', serif;    
-}
-.parallaxSection .textBox p.emphasize {
+.navContainer ul li a {
+    color: #000;
+    vertical-align: -10px;
     font-weight: 500;
+    font-size: 14px;
+}
+.topBanner {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10%;
+}
+.topBanner .titleContainer {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+.topBanner .titleContainer span {
+    color: #72c02c;
+    border-bottom: 3px solid #72c02c;
+}
+.homeGallerySection {
+    width: 80%;
+    margin: 0 auto;
+}
+.homeGallerySection img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.homeGallerySection .col-md-3 {
+    padding: 5px;
+}
+.homeGallerySection ul {
+    width: 50%;
+    margin: 0px auto 50px auto;
+}
+.homeGallerySection li {
+    display: inline;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+.homeGallerySection li:hover {
+    cursor: pointer;
+    color: #72c02c
+}
+.homeGallerySection li.active {
+    color: #72c02c
+}
+.brandBanner {
+    width: 100%;
+    background-color: #72c02c;
+    color: #fff;
+    padding: 3% 0;
+    margin: 60px 0;
+}
+.brandContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+.brandContainer h2 {
+    text-transform: uppercase;
     font-size: 22px;
 }
-.parallaxSection .textBox h1 {
-    font-weight: 100;
+.brandContainer h1 {
     font-size: 28px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    font-weight: 700;
 }
-.parallaxSection .textBox p {
-    font-weight: 100;
+.brandContainer button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    transition: .4s;
+}
+.brandContainer button:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.teamSection {
+    width: 80%;
+    margin:  60px auto;
+}
+.teamSection .col-md-4 {
+    min-height: 300px;
+}
+.teamSection  img {
+    height: auto;
+    width: 100%;
+}
+.teamSection p {
+    text-align: center;
+    font-weight: 600;
     font-size: 18px;
-    font-family: 'Quicksand', serif;
+    margin: 10px 0;
 }
-.parallaxSection .textBox h1.emphasize {
-    font-weight: 500;
-    font-size: 48px;
-}
-.indexImgBoxSquare1 img {
+footer {
     width: 100%;
-    height: auto;
+    padding: 5% 0;
+    background-color: #72c02c;
 }
-.indexImgBoxSquare1 {
-    max-height: 400px;
-    overflow-y: hidden;
+footer .footerLinks {
+    width: 80%;
+    margin: 0 auto;
 }
-.indexImgBoxSquare2 img {
-    max-width: 100%;
-    height: auto;
+footer ul li {
+    display: inline;
+    margin:  0 20px;
 }
-.indexImgBoxSquare2 {
-    max-height: 400px;
-    overflow-y: hidden;
-}
-.indexImgBoxRect1 img {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
-.indexImgBoxRect2 img {
-    max-width: 100%;
-    height: auto;
-    position: relative;
-}
-.indexImgBoxRect1 h2 {
-    position: absolute;
+footer ul li a {
     color: #fff;
-    padding: 2em;
-    bottom: 0;
-    font-size: 22px;
-    line-height: 34px;
-    font-family: 'Quicksand', serif;
 }
