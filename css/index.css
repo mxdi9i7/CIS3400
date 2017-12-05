@@ -41,8 +41,8 @@ nav {
     font-weight: 600;
 }
 .topBanner .titleContainer span {
-    color: #e64919;
-    border-bottom: 3px solid #e64919;
+    color:#ffaec6d5;
+    border-bottom: 3px solid #ffaec6d5;
 }
 .homeGallerySection {
     width: 80%;
@@ -69,14 +69,14 @@ nav {
 }
 .homeGallerySection li:hover {
     cursor: pointer;
-    color: #e64919
+    color: #ffaec6d5
 }
 .homeGallerySection li.active {
-    color: #e64919
+    color: #ffaec6d5
 }
 .brandBanner {
     width: 100%;
-    background-color: #e64919;
+    background-color: #8a8a8a;
     color: #fff;
     padding: 3% 0;
     margin: 60px 0;
@@ -124,7 +124,7 @@ nav {
 footer {
     width: 100%;
     padding: 5% 0;
-    background-color: #e64919;
+    background-color: #8a8a8a;
 }
 footer .footerLinks {
     width: 80%;
