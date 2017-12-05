@@ -186,3 +186,8 @@ footer p {
     height: 200px;
     background-color: white;
 }
+.contact label {float: left; display: block; text-align: right; width:120px; padding-right:10px; }
+.contact input{ display: block; margin-bottom: 20px;}
+.contact textarea { display: block; margin-bottom: 20px;}
+.contact input[type="submit"]{margin-left: 130px;}
+.contact h2 {text-align: center; }
