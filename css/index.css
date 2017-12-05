@@ -165,6 +165,13 @@ footer p {
     text-align: center;
     margin: 20px 0;
 }
+.aboutContainer h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+.aboutContainer p{
+    text-align: center; 
+}
 .aboutContainer img{ background-size:cover; }
 #about nav a {
     color: #fff;
