@@ -166,6 +166,18 @@ footer p {
     transform: translateX(-50%);
     color: #fff;
 }
+.submitBtn {
+    padding: 8px 30px;
+    color: #000;
+    border: 2px solid #000;
+    float: right;
+    margin-right: 15px;
+}
+.submitBtn:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
 .aboutContainer {
     width: 100%;
     padding: 5% 10%;
@@ -439,4 +451,74 @@ footer p {
 }
 .articleDetail i.fa-heart {
     color: #e22626;
+}
+
+@media screen and (max-width: 768px) {
+    .topBanner {
+        margin-top: 150px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+    .galleryHeader {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .galleryTitle {
+        padding-left: 0;
+        padding-right: 0;
+        bottom: 50px;
+    }
+    .galleryHeader .galleryTitle h1 {
+        font-size: 75px;
+        line-height: 75px;
+    }
+    .galleryContent .galleryRow {
+        display: block;
+    }
+    .contactSection {
+        margin-bottom: 10%;
+    }
+    .formMainRow {
+        display: block;
+    }
+    .contactRow {
+        display: block;
+    }
+    .contactRow .contactItem {
+        margin: 20px 0;
+    }
+    .formMainRow .formRight {
+        width: 100%;
+    }
+    .formMainRow .formLeft {
+        width: 100%;
+    }
+    .articleContent {
+        margin-bottom: 10%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .logo {
+        display: none;
+    }
+    .aboutServiceContainer * {
+        text-align: center;
+    }
+    .aboutBanner {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .aboutBanner * {
+        text-align: center;
+    }
+    .aboutBanner a {
+        display: block;
+        margin-left: 0;
+    }
 }
